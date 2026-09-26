@@ -1,0 +1,1025 @@
+{
+ "usuarios": [
+  {
+   "criadoEm": "2026-09-24T22:45:41.746Z",
+   "email": "phenriquec@hotmail.com",
+   "hash": "0652495e12d45f2e5ab019bd9da075502d13a31bbd8868cf6e39d7e1c0baa338",
+   "nome": "Paulo Henrique",
+   "perfil": "admin",
+   "salt": "mug4enytuxov92",
+   "status": "ativo",
+   "id": "mug4enytef98yp"
+  }
+ ],
+ "predios": [
+  {
+   "bairro": "Boa Viagem ",
+   "cep": "51030065",
+   "cidade": "Recife ",
+   "complemento": "",
+   "criadoEm": "2026-09-24T22:48:34.042Z",
+   "criadoPor": "mug4enytef98yp",
+   "endereco": "Rua Sá e Souza ",
+   "estado": "PE",
+   "historico": [
+    {
+     "a": "Criado",
+     "d": "",
+     "ts": "2026-09-24T22:48:34.042Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editado",
+     "d": "",
+     "ts": "2026-09-24T23:17:34.826Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "nome": "Costa Branca ",
+   "numero": "764",
+   "obs": "",
+   "status": "ativo",
+   "tipo": "Residencial",
+   "id": "mug4icxnqdl4gw"
+  }
+ ],
+ "unidades": [
+  {
+   "area": "56",
+   "criadoEm": "2026-09-24T23:03:37.732Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Criada",
+     "d": "",
+     "ts": "2026-09-24T23:03:37.733Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "nome": "101",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "tipo": "Sala",
+   "id": "mug51q853ssiku"
+  }
+ ],
+ "contratos": [
+  {
+   "aluguel": 2500,
+   "ativo": true,
+   "caucao": {
+    "aplicacao": "Outro",
+    "conta": "",
+    "data": "2025-09-30",
+    "forma": "PIX",
+    "instituicao": "",
+    "possui": true,
+    "status": "Ativa",
+    "valor": 2500
+   },
+   "criadoEm": "2026-09-24T23:03:38.167Z",
+   "criadoPor": "mug4enytef98yp",
+   "diaVenc": 10,
+   "doc": "710.340.394-58 ",
+   "email": "",
+   "fim": "2026-09-30",
+   "historico": [
+    {
+     "a": "Contrato criado",
+     "d": "",
+     "ts": "2026-09-24T23:03:38.167Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Contrato editado",
+     "d": "",
+     "ts": "2026-09-24T23:04:26.992Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inicio": "2025-09-30",
+   "inqObs": "",
+   "nome": "Gabriel de Andrade José",
+   "predioId": "mug4icxnqdl4gw",
+   "telefone": "",
+   "unidadeId": "mug51q853ssiku",
+   "id": "mug51qk7vaetmd"
+  }
+ ],
+ "receitas": [
+  {
+   "competencia": "2025-09",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.162Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.162Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:26:46.102Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2025-09-10",
+   "id": "mug53teibu5cgh"
+  },
+  {
+   "competencia": "2025-10",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.162Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.163Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:27:09.257Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2025-10-10",
+   "id": "mug53teinrzu9d"
+  },
+  {
+   "competencia": "2026-01",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.163Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.163Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:29:09.688Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-01-10",
+   "id": "mug53tej00haen"
+  },
+  {
+   "competencia": "2025-11",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.163Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.163Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:28:01.503Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2025-11-10",
+   "id": "mug53tej2hm14r"
+  },
+  {
+   "competencia": "2025-12",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.163Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.163Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:28:08.745Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2025-12-10",
+   "id": "mug53tejajsde6"
+  },
+  {
+   "competencia": "2026-04",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.163Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.163Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:29:48.207Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-04-10",
+   "id": "mug53tejdni6nt"
+  },
+  {
+   "competencia": "2026-02",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.163Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.163Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:29:16.080Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-02-10",
+   "id": "mug53tejguy9tt"
+  },
+  {
+   "competencia": "2026-03",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.163Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.163Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:29:42.365Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-03-10",
+   "id": "mug53tejztj9sm"
+  },
+  {
+   "competencia": "2026-07",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.164Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.164Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:30:08.853Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-07-10",
+   "id": "mug53tekbk3gvn"
+  },
+  {
+   "competencia": "2026-06",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.164Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.164Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:30:00.722Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-06-10",
+   "id": "mug53tekgg9nq3"
+  },
+  {
+   "competencia": "2026-09",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.164Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.164Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro de lançamento ",
+     "ts": "2026-09-24T23:07:12.632Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-09-10",
+   "id": "mug53tekhv4k6w"
+  },
+  {
+   "competencia": "2026-05",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.164Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.164Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:29:54.179Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-05-10",
+   "id": "mug53tekn1zlbf"
+  },
+  {
+   "competencia": "2026-08",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:05:15.164Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:05:15.164Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-24T23:30:29.803Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-08-10",
+   "id": "mug53tekv8xhgy"
+  },
+  {
+   "competencia": "2027-01",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.479Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.479Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:48:31.117Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:50:23.313Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-01-10",
+   "id": "mug54xrr3e5zsl"
+  },
+  {
+   "competencia": "2027-03",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.479Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.480Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:50:57.204Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-03-10",
+   "id": "mug54xrr7cf4ts"
+  },
+  {
+   "competencia": "2027-02",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.479Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.479Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:50:42.381Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-02-10",
+   "id": "mug54xrrg9co2j"
+  },
+  {
+   "competencia": "2026-11",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.479Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.479Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:45:02.568Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-11-10",
+   "id": "mug54xrrjfevps"
+  },
+  {
+   "competencia": "2027-12",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.479Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.479Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:47:40.739Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-12-10",
+   "id": "mug54xrrtv5pbt"
+  },
+  {
+   "competencia": "2026-10",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.479Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.479Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:44:10.582Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:46:37.012Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2026-10-10",
+   "id": "mug54xrrww7y5e"
+  },
+  {
+   "competencia": "2026-09",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.479Z",
+   "criadoPor": "mug4enytef98yp",
+   "dataRecebimento": "2026-09-10",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.479Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:43:55.885Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:45:15.262Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Recebida",
+     "d": "R$ 2.500,00 em 10/09/2026",
+     "ts": "2026-09-25T00:14:49.703Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "recebidoPor": "mug4enytef98yp",
+   "recebidoPorNome": "Paulo Henrique",
+   "status": "recebido",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "valorRecebido": 2500,
+   "vencimento": "2026-09-10",
+   "id": "mug54xrrzezby6"
+  },
+  {
+   "competencia": "2027-05",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.480Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.480Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:51:36.788Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-05-10",
+   "id": "mug54xrs2k9nya"
+  },
+  {
+   "competencia": "2027-06",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.480Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.480Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:51:51.135Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-06-10",
+   "id": "mug54xrsfhxy9f"
+  },
+  {
+   "competencia": "2027-07",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.480Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.480Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:52:07.032Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-07-10",
+   "id": "mug54xrstwpa95"
+  },
+  {
+   "competencia": "2027-08",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.480Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.480Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:52:42.531Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-08-10",
+   "id": "mug54xrswii2f1"
+  },
+  {
+   "competencia": "2027-04",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:06:07.480Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:06:07.480Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:51:12.578Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-04-10",
+   "id": "mug54xrsz5s8oz"
+  },
+  {
+   "competencia": "2026-09",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-24T23:07:41.572Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Gerada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:07:41.573Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Editada",
+     "d": "R$ 2.500,00",
+     "ts": "2026-09-24T23:09:29.241Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "aberto",
+   "tipo": "Aluguel",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 2500,
+   "vencimento": "2027-09-10",
+   "id": "mug56ydg3p2ch9"
+  },
+  {
+   "competencia": "2026-09",
+   "contratoId": "mug51qk7vaetmd",
+   "criadoEm": "2026-09-25T00:11:15.875Z",
+   "criadoPor": "mug4enytef98yp",
+   "historico": [
+    {
+     "a": "Lançada",
+     "d": "R$ 104.367,00",
+     "ts": "2026-09-25T00:11:15.877Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Cancelado",
+     "d": "Erro",
+     "ts": "2026-09-25T00:13:01.143Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "inquilino": "Gabriel de Andrade José",
+   "obs": "",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "cancelado",
+   "tipo": "Condomínio",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 104367,
+   "vencimento": "2026-09-10",
+   "id": "mug7gpiexu09j0"
+  }
+ ],
+ "despesas": [
+  {
+   "criadoEm": "2026-09-25T00:13:51.963Z",
+   "criadoPor": "mug4enytef98yp",
+   "data": "2026-09-10",
+   "dataPagamento": "2026-09-10",
+   "descricao": "",
+   "historico": [
+    {
+     "a": "Lançada",
+     "d": "R$ 1.043,67",
+     "ts": "2026-09-25T00:13:51.964Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    },
+    {
+     "a": "Paga",
+     "d": "10/09/2026",
+     "ts": "2026-09-25T00:15:08.328Z",
+     "u": "mug4enytef98yp",
+     "un": "Paulo Henrique"
+    }
+   ],
+   "obs": "",
+   "pagoPor": "mug4enytef98yp",
+   "pagoPorNome": "Paulo Henrique",
+   "predioId": "mug4icxnqdl4gw",
+   "status": "pago",
+   "tipo": "Condomínio",
+   "unidadeId": "mug51q853ssiku",
+   "valor": 1043.67,
+   "id": "mug7k1y5b3h4cq"
+  }
+ ],
+ "config": [
+  {
+   "nome": "",
+   "id": "empresa"
+  }
+ ]
+}
